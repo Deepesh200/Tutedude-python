@@ -10,13 +10,13 @@ o   Sine of the number (in radians)
 from math import *
 num = float(input("Enter a number :- "))
 if num > 0:
-    sqrt_result = sqrt(num)
-    log_result = log(num)
+    squareroot= sqrt(num)
+    logarithm= log(num)
 else:
    print ("Wrong input Please enter a correct input")
 
 sine_result = sin(num) 
 
-print("Square root :- ", sqrt_result)
-print("logarithm :- ", log_result)
+print("Square root :- ",squareroot)
+print("logarithm :- ",logarithm)
 print("Sine :- ", sine_result)
