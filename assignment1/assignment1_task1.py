@@ -14,10 +14,7 @@ num2 = float(input('Enter second no :- '))
 addition = num1 + num2
 subtraction = num1 - num2
 multiplication = num1 * num2
-
-if num2 != 0:
-    division = num1 / num2
-else: print ('undefined division by zero...')
+division = num1 / num2
 
 print('Addition : ',addition)
 print('Subtraction : ',subtraction)
