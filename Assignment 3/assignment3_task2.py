@@ -8,9 +8,7 @@ o   Sine of the number (in radians)
 '''
 
 from math import *
-
 num = float(input("Enter a number :- "))
-
 if num > 0:
     sqrt_result = sqrt(num)
     log_result = log(num)
